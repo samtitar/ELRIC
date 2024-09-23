@@ -52,3 +52,6 @@ For efficieny, it is recommended to extract contectual comic panel features off-
 
 ## Training ELRIC
 Using the extracted features from the previous step, ELRIC can be trained using `scripts/training.py`. Exact details on (hyper)parameters can be found in my thesis. In this repository contextual features are injected into the training process of DINO to obtain "context free" representations
+
+## Trained Model Checkpoints
+Trained model checkpoints (including a ViT trained on the TINTIN corpus using DINO) are [publicly available](https://drive.google.com/drive/folders/1umCCyYNuD-yc_T7nmAbhQOhyDNxXWDNA?usp=sharing).
